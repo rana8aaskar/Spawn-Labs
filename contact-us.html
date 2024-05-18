@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        /* Add your CSS styles here */
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .left-half {
+            width: 50%;
+            padding: 20px;
+        }
+        .right-half {
+            width: 50%;
+            padding: 20px;
+        }
+        .submit-button {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .footer {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-half">
+            <h1>Contact Us</h1>
+            <form>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button class="submit-button" type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="right-half">
+            <img src="path/to/microbes-image.jpg" alt="Microbes in a Test Tube">
+        </div>
+    </div>
+    <div class="footer">
+        <!-- Add your footer content here -->
+    </div>
+</body>
+</html>
