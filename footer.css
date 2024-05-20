@@ -1,0 +1,52 @@
+/* The .footer-main class sets the styles for the main footer */
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-container div {
+    margin: 10px;
+    text-align: left;
+}
+
+.footer-container a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.footer-container a:hover {
+    color: #ddd;
+}
+
+.footer-container p {
+    margin: 5px 0;
+}
+
+.footer-container .contact p,
+.footer-container .location p {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer-container .contact p i,
+.footer-container .location p i {
+    margin-right: 10px;
+}
+.footer-container .social-media {
+    
+    text-align: center; /* Center social media icons */
+    margin-top: 90px;}
